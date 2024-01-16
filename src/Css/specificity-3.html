@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>specificity-3</title>
+  <style>
+    p{
+        color:blue !important;
+    }
+    #main #sub .title{
+        color:red;
+    }
+  </style>
+</head>
+<body>
+  <div id="main">
+      <div id="sub">
+          <p class="title" style="color:green">important</p>
+      </div>
+  </div>
+</body>
+</html>
