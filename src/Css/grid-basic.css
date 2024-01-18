@@ -1,0 +1,13 @@
+.grid-container{
+    display:grid;
+    grid-template-columns:repeats(2, 100px);
+    grid-template-rows:repeats(2, 50px);
+}
+.grid-item{
+    color:white;
+    background-color:#ff5252;
+}
+.grid-item:nth-child(2n){
+    background-color:#bf5e5e
+}
+
