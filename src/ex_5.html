@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        }
+        body{
+            font-family: Roboto;
+            text-align:center;
+            margin:100px 500px;
+        }
+        form{
+        
+            border-style: solid;
+            width: 304px;
+            height: 390px;
+        }
+        .top{
+            width: 228px;
+            height: 44px;
+        }
+        .emg{
+            position: relative;
+            top:4px;
+
+        }
+        .id{
+            width: 228px;
+            height: 44px;
+            background-color: #eaeaea;
+            border-color: black;
+            border-style: solid;
+        }
+        .pw{
+            width: 228px;
+            height: 44px;
+            background-color: #eaeaea;
+            margin-top: 28px;
+            border-color: black;
+            border-style: solid;
+
+        }
+        h1{
+            display: inline;
+            
+            font-size: 14px;
+            
+        }
+        .login{
+            background-color: white;
+            margin-top: 28px;
+            
+            width: 228px;
+            height: 44px;
+            border-style: solid;
+            border-color: black;
+        }
+        .hi{
+            color: #504444;
+            font-family: Roboto;
+            margin-top: 14px;
+        }
+        .picture{
+            font-size: 18px;
+            width: 45px;
+            height: 20px;
+        }
+        .good{
+            width: 228px;
+            height: 44px;
+            background-color: #373f3c;
+            margin-top: 28px;
+            border-color: black;
+            border-style: solid;
+        }
+        .good_L{
+            color: #ffffff;
+            font-family: Roboto;
+            font-size: 14px;
+            
+        }
+        .bottom{
+            margin-top: 28px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <button class="login" type="submit">
+            <img class="emg" src="logo.jpg" width="30px" height="18px">
+            <h1>Log in with Google</h1>
+        </button>
+        <br>
+        <p class="hi"><strong>or</strong></p>
+        <br>
+        
+            <!-- <<H1>Log in with Google</H1>> -->
+        <input class="id" tpye="text" placeholder="Username">
+        <input class="pw" tpye="pw" placeholder="Password">
+        <br>
+        <button class="good" tpye="submit">
+            <p class="good_L">LOGIN</p>
+        </button>
+        <br>
+        <div class="bottom">
+            <a href="#">Forgot your Password?</a>
+        </div>
+
+
+        
+    </form>
+</body>
+</html>
