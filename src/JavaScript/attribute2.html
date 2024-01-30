@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red-color{
+                color:red;
+        }
+    </style>
+</head>
+<body>
+    <a href="http://www.gilbut.co.kr" data-link="길벗">길벗</a>
+<script>
+    const aEl = document.querySelector("a");
+    aEl.innerText = "수코딩";
+    aEl.setAttribute("data-link", "이지톡");
+    aEl.setAttribute("class", "red-color");
+    aEl.removeAttribute("class");
+</script>
+    
+</body>
+</html>
